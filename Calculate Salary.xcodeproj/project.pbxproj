@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC62829D27BB0EBB0076FC66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC62829C27BB0EBB0076FC66 /* AppDelegate.swift */; };
+		FC62829F27BB0EBB0076FC66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC62829E27BB0EBB0076FC66 /* SceneDelegate.swift */; };
+		FC6282A127BB0EBB0076FC66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6282A027BB0EBB0076FC66 /* ViewController.swift */; };
+		FC6282A427BB0EBB0076FC66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6282A227BB0EBB0076FC66 /* Main.storyboard */; };
+		FC6282A727BB0EBB0076FC66 /* Calculate_Salary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FC6282A527BB0EBB0076FC66 /* Calculate_Salary.xcdatamodeld */; };
+		FC6282A927BB0EBF0076FC66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC6282A827BB0EBF0076FC66 /* Assets.xcassets */; };
+		FC6282AC27BB0EBF0076FC66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC6282AA27BB0EBF0076FC66 /* LaunchScreen.storyboard */; };
+		FC6282B727BB0EBF0076FC66 /* Calculate_SalaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6282B627BB0EBF0076FC66 /* Calculate_SalaryTests.swift */; };
+		FC6282C227BB0EBF0076FC66 /* Calculate_SalaryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6282C127BB0EBF0076FC66 /* Calculate_SalaryUITests.swift */; };
+		FC6282D027BB105C0076FC66 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6282CF27BB105C0076FC66 /* Person.swift */; };
+		FC6282D227BB10CB0076FC66 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6282D127BB10CB0076FC66 /* Manager.swift */; };
+		FC6282D427BB10EA0076FC66 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6282D327BB10EA0076FC66 /* Employee.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC6282B327BB0EBF0076FC66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC62829127BB0EBB0076FC66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC62829827BB0EBB0076FC66;
+			remoteInfo = "Calculate Salary";
+		};
+		FC6282BE27BB0EBF0076FC66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC62829127BB0EBB0076FC66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC62829827BB0EBB0076FC66;
+			remoteInfo = "Calculate Salary";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC62829927BB0EBB0076FC66 /* Calculate Salary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculate Salary.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC62829C27BB0EBB0076FC66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC62829E27BB0EBB0076FC66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC6282A027BB0EBB0076FC66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC6282A327BB0EBB0076FC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC6282A627BB0EBB0076FC66 /* Calculate_Salary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calculate_Salary.xcdatamodel; sourceTree = "<group>"; };
+		FC6282A827BB0EBF0076FC66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC6282AB27BB0EBF0076FC66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC6282AD27BB0EBF0076FC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6282B227BB0EBF0076FC66 /* Calculate SalaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculate SalaryTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6282B627BB0EBF0076FC66 /* Calculate_SalaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate_SalaryTests.swift; sourceTree = "<group>"; };
+		FC6282B827BB0EBF0076FC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6282BD27BB0EBF0076FC66 /* Calculate SalaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Calculate SalaryUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC6282C127BB0EBF0076FC66 /* Calculate_SalaryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculate_SalaryUITests.swift; sourceTree = "<group>"; };
+		FC6282C327BB0EBF0076FC66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC6282CF27BB105C0076FC66 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		FC6282D127BB10CB0076FC66 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		FC6282D327BB10EA0076FC66 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC62829627BB0EBB0076FC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6282AF27BB0EBF0076FC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6282BA27BB0EBF0076FC66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC62829027BB0EBB0076FC66 = {
+			isa = PBXGroup;
+			children = (
+				FC62829B27BB0EBB0076FC66 /* Calculate Salary */,
+				FC6282B527BB0EBF0076FC66 /* Calculate SalaryTests */,
+				FC6282C027BB0EBF0076FC66 /* Calculate SalaryUITests */,
+				FC62829A27BB0EBB0076FC66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC62829A27BB0EBB0076FC66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC62829927BB0EBB0076FC66 /* Calculate Salary.app */,
+				FC6282B227BB0EBF0076FC66 /* Calculate SalaryTests.xctest */,
+				FC6282BD27BB0EBF0076FC66 /* Calculate SalaryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC62829B27BB0EBB0076FC66 /* Calculate Salary */ = {
+			isa = PBXGroup;
+			children = (
+				FC62829C27BB0EBB0076FC66 /* AppDelegate.swift */,
+				FC62829E27BB0EBB0076FC66 /* SceneDelegate.swift */,
+				FC6282A027BB0EBB0076FC66 /* ViewController.swift */,
+				FC6282CF27BB105C0076FC66 /* Person.swift */,
+				FC6282D127BB10CB0076FC66 /* Manager.swift */,
+				FC6282D327BB10EA0076FC66 /* Employee.swift */,
+				FC6282A227BB0EBB0076FC66 /* Main.storyboard */,
+				FC6282A827BB0EBF0076FC66 /* Assets.xcassets */,
+				FC6282AA27BB0EBF0076FC66 /* LaunchScreen.storyboard */,
+				FC6282AD27BB0EBF0076FC66 /* Info.plist */,
+				FC6282A527BB0EBB0076FC66 /* Calculate_Salary.xcdatamodeld */,
+			);
+			path = "Calculate Salary";
+			sourceTree = "<group>";
+		};
+		FC6282B527BB0EBF0076FC66 /* Calculate SalaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6282B627BB0EBF0076FC66 /* Calculate_SalaryTests.swift */,
+				FC6282B827BB0EBF0076FC66 /* Info.plist */,
+			);
+			path = "Calculate SalaryTests";
+			sourceTree = "<group>";
+		};
+		FC6282C027BB0EBF0076FC66 /* Calculate SalaryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC6282C127BB0EBF0076FC66 /* Calculate_SalaryUITests.swift */,
+				FC6282C327BB0EBF0076FC66 /* Info.plist */,
+			);
+			path = "Calculate SalaryUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC62829827BB0EBB0076FC66 /* Calculate Salary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6282C627BB0EBF0076FC66 /* Build configuration list for PBXNativeTarget "Calculate Salary" */;
+			buildPhases = (
+				FC62829527BB0EBB0076FC66 /* Sources */,
+				FC62829627BB0EBB0076FC66 /* Frameworks */,
+				FC62829727BB0EBB0076FC66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Calculate Salary";
+			productName = "Calculate Salary";
+			productReference = FC62829927BB0EBB0076FC66 /* Calculate Salary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC6282B127BB0EBF0076FC66 /* Calculate SalaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6282C927BB0EBF0076FC66 /* Build configuration list for PBXNativeTarget "Calculate SalaryTests" */;
+			buildPhases = (
+				FC6282AE27BB0EBF0076FC66 /* Sources */,
+				FC6282AF27BB0EBF0076FC66 /* Frameworks */,
+				FC6282B027BB0EBF0076FC66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6282B427BB0EBF0076FC66 /* PBXTargetDependency */,
+			);
+			name = "Calculate SalaryTests";
+			productName = "Calculate SalaryTests";
+			productReference = FC6282B227BB0EBF0076FC66 /* Calculate SalaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC6282BC27BB0EBF0076FC66 /* Calculate SalaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC6282CC27BB0EBF0076FC66 /* Build configuration list for PBXNativeTarget "Calculate SalaryUITests" */;
+			buildPhases = (
+				FC6282B927BB0EBF0076FC66 /* Sources */,
+				FC6282BA27BB0EBF0076FC66 /* Frameworks */,
+				FC6282BB27BB0EBF0076FC66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC6282BF27BB0EBF0076FC66 /* PBXTargetDependency */,
+			);
+			name = "Calculate SalaryUITests";
+			productName = "Calculate SalaryUITests";
+			productReference = FC6282BD27BB0EBF0076FC66 /* Calculate SalaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC62829127BB0EBB0076FC66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FC62829827BB0EBB0076FC66 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					FC6282B127BB0EBF0076FC66 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FC62829827BB0EBB0076FC66;
+					};
+					FC6282BC27BB0EBF0076FC66 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = FC62829827BB0EBB0076FC66;
+					};
+				};
+			};
+			buildConfigurationList = FC62829427BB0EBB0076FC66 /* Build configuration list for PBXProject "Calculate Salary" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC62829027BB0EBB0076FC66;
+			productRefGroup = FC62829A27BB0EBB0076FC66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC62829827BB0EBB0076FC66 /* Calculate Salary */,
+				FC6282B127BB0EBF0076FC66 /* Calculate SalaryTests */,
+				FC6282BC27BB0EBF0076FC66 /* Calculate SalaryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC62829727BB0EBB0076FC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6282AC27BB0EBF0076FC66 /* LaunchScreen.storyboard in Resources */,
+				FC6282A927BB0EBF0076FC66 /* Assets.xcassets in Resources */,
+				FC6282A427BB0EBB0076FC66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6282B027BB0EBF0076FC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6282BB27BB0EBF0076FC66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC62829527BB0EBB0076FC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6282D027BB105C0076FC66 /* Person.swift in Sources */,
+				FC6282D227BB10CB0076FC66 /* Manager.swift in Sources */,
+				FC6282A127BB0EBB0076FC66 /* ViewController.swift in Sources */,
+				FC6282D427BB10EA0076FC66 /* Employee.swift in Sources */,
+				FC62829D27BB0EBB0076FC66 /* AppDelegate.swift in Sources */,
+				FC6282A727BB0EBB0076FC66 /* Calculate_Salary.xcdatamodeld in Sources */,
+				FC62829F27BB0EBB0076FC66 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6282AE27BB0EBF0076FC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6282B727BB0EBF0076FC66 /* Calculate_SalaryTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC6282B927BB0EBF0076FC66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6282C227BB0EBF0076FC66 /* Calculate_SalaryUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC6282B427BB0EBF0076FC66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC62829827BB0EBB0076FC66 /* Calculate Salary */;
+			targetProxy = FC6282B327BB0EBF0076FC66 /* PBXContainerItemProxy */;
+		};
+		FC6282BF27BB0EBF0076FC66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC62829827BB0EBB0076FC66 /* Calculate Salary */;
+			targetProxy = FC6282BE27BB0EBF0076FC66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC6282A227BB0EBB0076FC66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6282A327BB0EBB0076FC66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC6282AA27BB0EBF0076FC66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC6282AB27BB0EBF0076FC66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC6282C427BB0EBF0076FC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC6282C527BB0EBF0076FC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC6282C727BB0EBF0076FC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHNN4VPXK7;
+				INFOPLIST_FILE = "Calculate Salary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedtahaelnaghy.Calculate-Salary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC6282C827BB0EBF0076FC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHNN4VPXK7;
+				INFOPLIST_FILE = "Calculate Salary/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedtahaelnaghy.Calculate-Salary";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC6282CA27BB0EBF0076FC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHNN4VPXK7;
+				INFOPLIST_FILE = "Calculate SalaryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedtahaelnaghy.Calculate-SalaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculate Salary.app/Calculate Salary";
+			};
+			name = Debug;
+		};
+		FC6282CB27BB0EBF0076FC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHNN4VPXK7;
+				INFOPLIST_FILE = "Calculate SalaryTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedtahaelnaghy.Calculate-SalaryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Calculate Salary.app/Calculate Salary";
+			};
+			name = Release;
+		};
+		FC6282CD27BB0EBF0076FC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHNN4VPXK7;
+				INFOPLIST_FILE = "Calculate SalaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedtahaelnaghy.Calculate-SalaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calculate Salary";
+			};
+			name = Debug;
+		};
+		FC6282CE27BB0EBF0076FC66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YHNN4VPXK7;
+				INFOPLIST_FILE = "Calculate SalaryUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ahmedtahaelnaghy.Calculate-SalaryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Calculate Salary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC62829427BB0EBB0076FC66 /* Build configuration list for PBXProject "Calculate Salary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6282C427BB0EBF0076FC66 /* Debug */,
+				FC6282C527BB0EBF0076FC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6282C627BB0EBF0076FC66 /* Build configuration list for PBXNativeTarget "Calculate Salary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6282C727BB0EBF0076FC66 /* Debug */,
+				FC6282C827BB0EBF0076FC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6282C927BB0EBF0076FC66 /* Build configuration list for PBXNativeTarget "Calculate SalaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6282CA27BB0EBF0076FC66 /* Debug */,
+				FC6282CB27BB0EBF0076FC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC6282CC27BB0EBF0076FC66 /* Build configuration list for PBXNativeTarget "Calculate SalaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC6282CD27BB0EBF0076FC66 /* Debug */,
+				FC6282CE27BB0EBF0076FC66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FC6282A527BB0EBB0076FC66 /* Calculate_Salary.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FC6282A627BB0EBB0076FC66 /* Calculate_Salary.xcdatamodel */,
+			);
+			currentVersion = FC6282A627BB0EBB0076FC66 /* Calculate_Salary.xcdatamodel */;
+			path = Calculate_Salary.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FC62829127BB0EBB0076FC66 /* Project object */;
+}
